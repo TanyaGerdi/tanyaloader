@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: TanyaLoader(
             size: 200,
+            colors: [Colors.black, Colors.grey],
+            icon: Icons.shopping_cart,
+            rippleCount: 4,
           ),
         ),
       ),

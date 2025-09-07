@@ -1,6 +1,6 @@
 name: tanyaloader
 description: A dynamic loading indicator with a rotating circle and a pulsing central icon.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/TanyaGerdi/tanyaloader
 repository: https://github.com/TanyaGerdi/tanyaloader
 issue_tracker: https://github.com/TanyaGerdi/tanyaloader/issues

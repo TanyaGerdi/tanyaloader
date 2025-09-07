@@ -115,14 +115,13 @@ class _GradientRipplePainter extends CustomPainter {
       final paint = Paint()
         ..style = PaintingStyle.stroke
         ..strokeWidth = stroke
-        ..shader =
-            SweepGradient(
-              startAngle: 0,
-              endAngle: 2 * pi,
-              colors: colors.map((c) => c.withAlpha(alpha)).toList(),
-            ).createShader(
-              Rect.fromCircle(center: center, radius: radius + stroke),
-            );
+        ..shader = SweepGradient(
+          startAngle: 0,
+          endAngle: 2 * pi,
+          colors: colors.map((c) => c.withAlpha(alpha)).toList(),
+        ).createShader(
+          Rect.fromCircle(center: center, radius: radius + stroke),
+        );
 
       canvas.drawCircle(center, radius, paint);
     }
